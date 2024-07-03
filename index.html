@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>THE MOST PINGY ON TON</title>
+    <meta name="title" content="THE MOST PINGY ON TON">
+    <meta name="description"
+        content="Where Shrek and Pepe's lovechild meets the TON blockchain! With his blue skin and hopeful vibe, PINGY is here to bring joy and wealth to all.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://">
+    <meta property="og:title" content="THE MOST PINGY ON TON">
+    <meta property="og:description"
+        content="Where Shrek and Pepe's lovechild meets the TON blockchain! With his blue skin and hopeful vibe, PINGY is here to bring joy and wealth to all.">
+    <meta property="og:image" content="images/perek_1.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https:///">
+    <meta property="twitter:title" content="THE MOST PINGY ON TON">
+    <meta property="twitter:description"
+        content="Where Shrek and Pepe's lovechild meets the TON blockchain! With his blue skin and hopeful vibe, PINGY is here to bring joy and wealth to all.">
+    <meta property="twitter:image" content="https://">
+
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PINGY</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/main_new3.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__wrapper container">
+            <a href="#top">
+                <picture class="header__logo">
+                    <source media="(max-width: 650px)" srcset="images/logo_mobile.png">
+
+                </picture>
+            </a>
+            <link rel="stylesheet" href="css/all.min.css">
+            <button id="playMusicButton"><i class="fas fa-volume-mute"></i></button>
+<audio id="myMusic" src="media/pingusong.mp3"></audio>
+            <script>
+                var musicPlayed = false;
+
+                document.getElementById('playMusicButton').addEventListener('click', function (event) {
+                    event.stopPropagation();
+                    toggleMusic();
+                });
+
+                document.addEventListener('click', function () {
+                    if (!musicPlayed) {
+                        toggleMusic();
+                    }
+                });
+
+                function toggleMusic() {
+                    var myMusic = document.getElementById('myMusic');
+                    var icon = document.querySelector('#playMusicButton i');
+
+                    if (myMusic.paused) {
+                        myMusic.play().then(() => {
+                            icon.classList.remove('fa-volume-mute');
+                            icon.classList.add('fa-volume-up');
+                            musicPlayed = true;
+                        }).catch(error => {
+                            console.error("Error:", error);
+                        });
+                    } else {
+                        myMusic.pause();
+                        icon.classList.remove('fa-volume-up');
+                        icon.classList.add('fa-volume-mute');
+                    }
+                }
+            </script>
+            <div class="hamburger">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+
+            <div class="header__inner">
+                <div class="header__links">
+
+
+                </div>
+                <div class="header__socials">
+                    <a target="_blank" href="https://x.com/PingyTon" class="header__social">
+                        <img src="images/twitter.png" alt="twitter">
+                    </a>
+                    <a target="_blank" href="https://t.me/" class="header__social">
+                        <img src="images/telegram.png" alt="telegram">
+                    </a>
+                    <a target="_blank" href="https://dexscreener.com/TON" class="header__social">
+                        <img src="images/cou.png" alt="cou">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="home">
+            <div class="home__wrapper container">
+                <div class="home__content">
+                    <h1 class="home__title">
+                        Say Hi to PINGY!
+
+                    </h1>
+                    <p class="home__description">
+                        Welcome to the frosty yet surprisingly heartwarming world of PINGY, where our aspirations soar
+                        as high as our flaps can take us—straight to the moon, or at least a few inches off the ground,
+                        but who’s measuring?
+                    </p>
+                    <a target="_blank" href="https://dexscreener.com/TON" class="home__btn">
+                        Buy now
+                    </a>
+                </div>
+
+                <img src="images/pfpNOBACK.png" class="home__img" alt="egg">
+            </div>
+            <div class="home__lines">
+                <div class="home__line">
+
+                </div>
+                <div class="home__line">
+                    <div class="home__line-row">
+                        <div class="home__line-text">TON BOYS HERE</div>
+                        <div class="home__line-text">TO THE MOON</div>
+                        <div class="home__line-text">FIRST PINGY ON TON</div>
+                        <div class="home__line-text">PINGY</div>
+                        <div class="home__line-text">$PINGY</div>
+                        <div class="home__line-text">LOOK AT ME NOW</div>
+                        <div class="home__line-text">WHAT IS LOVE?</div>
+                        <div class="home__line-text">BABY, DON'T HURT ME</div>
+                        <div class="home__line-text">DON'T HURT ME</div>
+                        <div class="home__line-text">NO MORE BABY</div>
+                        <div class="home__line-text">$PINGY</div>
+                        <div class="home__line-text">WOW</div>
+                        <div class="home__line-text">WHY DUMP?</div>
+                        <div class="home__line-text">LFG</div>
+                        <div class="home__line-text">MOONTIME</div>
+                        <div class="home__line-text">$PINGY</div>
+                        <div class="home__line-text">HARD BOILED</div>
+                        <div class="home__line-text">PATIENCE</div>
+                        <div class="home__line-text">DEVS COOKING</div>
+                        <div class="home__line-text">MEMECOIN</div>
+                        <div class="home__line-text">COMMUNITY PROJECT</div>
+                        <div class="home__line-text">GET PINGY</div>
+                        <div class="home__line-text">$PINGY</div>
+                        <div class="home__line-text">SO HOT</div>
+                        <div class="home__line-text">I LOVE PINGY</div>
+                        <div class="home__line-text">HOW ARE U?</div>
+                        <div class="home__line-text">LET'S GO</div>
+                        <div class="home__line-text">$PINGY</div>
+                        <div class="home__line-text">SMASH IT</div>
+                        <div class="home__line-text">100 MIL MC?</div>
+                        <div class="home__line-text">TON</div>
+                        <div class="home__line-text">PINGY</div>
+                        <div class="home__line-text">NICOLAS PINGY</div>
+                        <div class="home__line-text">RAID</div>
+                        <div class="home__line-text">PUMP</div>
+                        <div class="home__line-text">MONEY PRINTER</div>
+                        <div class="home__line-text">X100</div>
+                        <div class="home__line-text">OR X1000</div>
+                        <div class="home__line-text">HOW ABOUT NEW SONG?</div>
+                        <div class="home__line-text">UNISWAP</div>
+                        <div class="home__line-text">TON BOYS HERE</div>
+                        <div class="home__line-text">TO THE MOON</div>
+                        <div class="home__line-text">FIRST PINGY ON TON</div>
+                        <div class="home__line-text">PINGY</div>
+                        <div class="home__line-text">GOOOOO</div>
+                        <div class="home__line-text">LOOK AT ME NOW</div>
+                        <div class="home__line-text">WHAT IS LOVE?</div>
+                        <div class="home__line-text">BABY, DON'T HURT ME</div>
+                        <div class="home__line-text">DON'T HURT ME</div>
+                        <div class="home__line-text">NO MORE BABY</div>
+                        <div class="home__line-text">$PINGY</div>
+                        <div class="home__line-text">WOW</div>
+                        <div class="home__line-text">WHY DUMP?</div>
+                        <div class="home__line-text">LFG</div>
+                        <div class="home__line-text">MOONTIME</div>
+                        <div class="home__line-text">$PINGY</div>
+                        <div class="home__line-text">HARD BOILED</div>
+                        <div class="home__line-text">PATIENCE</div>
+                        <div class="home__line-text">DEVS COOKING</div>
+                        <div class="home__line-text">MEMECOIN</div>
+                        <div class="home__line-text">COMMUNITY PROJECT</div>
+                        <div class="home__line-text">GET PINGY</div>
+                        <div class="home__line-text">$PINGY</div>
+                        <div class="home__line-text">SO HOT</div>
+                        <div class="home__line-text">I LOVE PINGY</div>
+                        <div class="home__line-text">HOW ARE U?</div>
+                        <div class="home__line-text">LET'S GO</div>
+                        <div class="home__line-text">$PINGY</div>
+                        <div class="home__line-text">SMASH IT</div>
+                        <div class="home__line-text">100 MIL MC?</div>
+                        <div class="home__line-text">TON</div>
+                        <div class="home__line-text">PINGY PINGY</div>
+                        <div class="home__line-text">NICOLAS PINGY</div>
+                        <div class="home__line-text">RAID</div>
+                        <div class="home__line-text">PUMP</div>
+                        <div class="home__line-text">MONEY PRINTER</div>
+                        <div class="home__line-text">X100</div>
+                        <div class="home__line-text">OR X1000</div>
+                        <div class="home__line-text">HOW ABOUT NEW SONG?</div>
+                        <div class="home__line-text">UNISWAP</div>
+                        <div class="home__line-text">TON BOYS HERE</div>
+                        <div class="home__line-text">TO THE MOON</div>
+                        <div class="home__line-text">FIRST PINGY ON TON</div>
+                        <div class="home__line-text">PINGY</div>
+                        <div class="home__line-text">$PINGY</div>
+                        <div class="home__line-text">LOOK AT ME NOW</div>
+                        <div class="home__line-text">WHAT IS LOVE?</div>
+                        <div class="home__line-text">BABY, DON'T HURT ME</div>
+                        <div class="home__line-text">DON'T HURT ME</div>
+                        <div class="home__line-text">NO MORE BABY</div>
+                        <div class="home__line-text">$PINGY</div>
+                        <div class="home__line-text">WOW</div>
+                        <div class="home__line-text">WHY DUMP?</div>
+                        <div class="home__line-text">LFG</div>
+                        <div class="home__line-text">MOONTIME</div>
+                        <div class="home__line-text">$PINGY</div>
+                        <div class="home__line-text">HARD BOILED</div>
+                        <div class="home__line-text">PATIENCE</div>
+                        <div class="home__line-text">DEVS COOKING</div>
+                        <div class="home__line-text">MEMECOIN</div>
+                        <div class="home__line-text">COMMUNITY PROJECT</div>
+                        <div class="home__line-text">GET PINGY</div>
+                        <div class="home__line-text">$PINGY</div>
+                        <div class="home__line-text">SO HOT</div>
+                        <div class="home__line-text">I LOVE PINGY</div>
+                        <div class="home__line-text">HOW ARE U?</div>
+                        <div class="home__line-text">LET'S GO</div>
+                        <div class="home__line-text">$PINGY</div>
+                        <div class="home__line-text">SMASH IT</div>
+                        <div class="home__line-text">100 MIL MC?</div>
+                        <div class="home__line-text">TON</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>
